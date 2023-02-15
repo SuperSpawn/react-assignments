@@ -1,0 +1,11 @@
+
+
+.Content {
+    display: block;
+    width: 70%;
+    height: 50%;
+    margin: auto;
+    background-color: yellow;
+    border: 1px solid black;
+    border-radius: 3px;
+}
