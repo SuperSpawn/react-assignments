@@ -24,9 +24,11 @@ function SonArray() {
 function Mother(props) {
     
     return (
-        <div>
+        <div className="Mother">
             <h1>A Tale of 5 bloons</h1>
-            <SonArray/>
+            <div className='SonArray'>
+                <SonArray/>
+            </div>
         </div>
     )
 

@@ -3,7 +3,9 @@ import Mother from './components/Mother'
 
 function App() {
   return (
-    <Mother/>
+    <div className="container">
+      <Mother/>
+    </div>
   );
 }
 
