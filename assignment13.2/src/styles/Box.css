@@ -18,7 +18,7 @@
 
 
 @keyframes slide-in {
-    from { left: -100px; }
+    from { left: -1000px; }
     to { left: 0px; }
 }
 
