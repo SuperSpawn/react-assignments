@@ -1,0 +1,21 @@
+.Map {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    justify-content: center;
+    align-items: center;
+    background-color: hotpink;
+    border: 1px solid teal;
+    border-radius: 10px;
+
+    width: 200px;
+    height: 300px;
+}
+.Map-name {
+    color: white;
+    text-decoration: underline;
+}
+.Map-image {
+    border-radius: 50%;
+}
