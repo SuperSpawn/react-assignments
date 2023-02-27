@@ -1,0 +1,37 @@
+.Record-container {
+    display: flex;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 10px;
+    gap: 20px;
+    padding-left: 10px;
+}
+.Task-container {
+    width: 100%;
+    display: flex;
+
+    gap: 20px;
+}
+
+.Record-task-name {
+    border-left: 1px solid grey;
+
+}
+
+.Record-check {
+    color: lime;
+}
+.Record-cross {
+    color: red;
+}
+
+.Record-container > button {
+    background-color: grey;
+    color: white;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+.Record-container > button:hover {
+    background-color: red;
+    cursor: pointer;
+}
