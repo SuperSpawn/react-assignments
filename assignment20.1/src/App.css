@@ -1,0 +1,30 @@
+.App {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+    height: 100vh;
+}
+.Button {
+    font-size: 3rem;
+    padding: 1rem 2rem;
+}
+
+.App-counter-neutral,
+.App-counter-positive,
+.App-counter-negative {
+    font-size: 3rem;
+}
+
+.App-counter-neutral {
+    color: black;
+}
+.App-counter-negative {
+    color: red;
+}
+.App-counter-positive {
+    color: lime;
+}
+
+
