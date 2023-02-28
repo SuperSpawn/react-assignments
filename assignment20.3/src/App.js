@@ -22,15 +22,17 @@ class App extends Component {
 
   render() {
 
+    console.log("render")
+
     const secondsHandler = this.handleSeconds.bind(this);
     const minutesHandler = this.handleMinutes.bind(this);
     const hoursHandler = this.handleHours.bind(this);
 
     return (
       <div className='App'>
-        <input onChange={(e) => secondsHandler(Number.parseInt(e.target.value))} type="text" value={this.state.seconds}/>
-        <input onChange={(e) => minutesHandler(Number.parseInt(e.target.value))} type="text" value={this.state.minutes}/>
         <input onChange={(e) => hoursHandler(Number.parseInt(e.target.value))} type="text" value={this.state.hours}/>
+        <input onChange={(e) => minutesHandler(Number.parseInt(e.target.value))} type="text" value={this.state.minutes}/>
+        <input onChange={(e) => secondsHandler(Number.parseInt(e.target.value))} type="text" value={this.state.seconds}/>
       </div>
     )
   }

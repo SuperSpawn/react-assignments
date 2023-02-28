@@ -8,7 +8,7 @@ class Button extends Component {
   
   render() {
     return (
-      <button className="Button" onClick={this.props.clickHandler} className='Button'>{this.props.name}</button>
+      <button onClick={this.props.clickHandler} className='Button'>{this.props.name}</button>
     )
   }
 }
@@ -16,7 +16,7 @@ class Button extends Component {
 class App extends Component {
   constructor() {
     super();
-    this.state = { counter: 0 }
+    this.state = { counter: 0, moshe:"shalom"}
   }
   getCounterClass() {
     if(this.state.counter > 0) return "App-counter-positive"
@@ -33,7 +33,8 @@ class App extends Component {
       this.setState({counter: this.state.counter-1});
     }
   }
-  render() { 
+  render() {
+    console.log(this.state); 
     return (
       <div className='App'>
         <Button clickHandler={this.decrementCounter.bind(this)} name="-"/>

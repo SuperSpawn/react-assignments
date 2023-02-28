@@ -32,7 +32,7 @@ class App extends Component {
   toggleTask(index) {
     const data = this.state.data; 
     data[index].completed = !(data[index].completed);
-    this.setState({data: data})
+    this.setState({data})
   }
 
   render() {
