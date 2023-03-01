@@ -1,0 +1,11 @@
+.Counter-container {
+    display: flex;
+    flex-direction: column;
+}
+.Counter-buttons-container {
+    display: flex;
+    
+}
+.Counter-value {
+    text-align: center;
+}
